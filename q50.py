@@ -6,12 +6,14 @@
 #Q50
 
 value = "Enter a string"
-vowels_1 = "a,e,i,o,u,A,E,I,O,U"
+value_lowercase= value.toLowerCase() # check syntax
+
+vowels_1 = "a,e,i,o,u,A,E,I,O,U" # don't need to check capital alphabets
 vowels_2 = "a,e,i,o,u"
 vowels_len = len(vowels)
 
 temp_str = ""
 
-for e in value:
+for e in value_lowercase:
     if e in vowels:
         temp_str = temp_str + e.lower()
