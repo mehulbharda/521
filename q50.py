@@ -8,7 +8,7 @@
 value = input("Enter a string")
 value_lowercase= value.lower() # check syntax
 
-vowels_1 = "a,e,i,o,u,A,E,I,O,U" # don't need to check capital alphabets
+vowels_1 = "a,e,i,o,u" # don't need to check capital alphabets
 vowels_2 = "a,e,i,o,u"
 count=[0,0,0,0,0]
 vowels_len = len(vowels_2)
