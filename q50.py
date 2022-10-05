@@ -14,8 +14,6 @@ vowels = "a,e,i,o,u"
 
 count=[0,0,0,0,0]
 
-vowels = len(vowels_2)
-
 temp_str = ""
 
 for e in value_lowercase:
@@ -23,3 +21,7 @@ for e in value_lowercase:
         x=vowels.index(e)
         count[x]=count[x]+1
         temp_str = temp_str + e
+
+
+for i,e in enumerate(count):
+    print(i,e)
