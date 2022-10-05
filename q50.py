@@ -5,7 +5,7 @@
 #(4) print the number of trials that you did to collect the 5 vowels .
 #Q50
 
-value = "Enter a string"
+value = input("Enter a string")
 value_lowercase= value.lower() # check syntax
 
 vowels_1 = "a,e,i,o,u,A,E,I,O,U" # don't need to check capital alphabets
